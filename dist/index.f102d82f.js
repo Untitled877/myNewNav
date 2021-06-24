@@ -12,6 +12,12 @@
   }, {
     logo: 'I',
     url: 'https://www.iconfont.cn'
+  }, {
+    logo: 'J',
+    url: 'https://juejin.cn'
+  }, {
+    logo: 'Y',
+    url: 'https://www.youtube.com/'
   }];
   let $16b5ad875ae907e2f7f79e7b8fe116cc$var$$box = $('.box')[0];
   let $16b5ad875ae907e2f7f79e7b8fe116cc$var$$hidden = $('.hidden')[0];
@@ -89,4 +95,4 @@
   });
 })();
 
-//# sourceMappingURL=index.ff6980eb.js.map
+//# sourceMappingURL=index.f102d82f.js.map

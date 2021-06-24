@@ -5,7 +5,9 @@ const websiteItemsObject = JSON.parse(websiteItems)
 const hashMap = websiteItemsObject || [
     {logo: 'C', url: 'https://www.csdn.net'},
     {logo: 'G', url: 'https://github.com'},
-    {logo: 'I', url: 'https://www.iconfont.cn'}
+    {logo: 'I', url: 'https://www.iconfont.cn'},
+    {logo: 'J', url: 'https://juejin.cn'},
+    {logo: 'Y', url:'https://www.youtube.com/'}
 ]
 let $box = $('.box')[0]
 let $hidden = $('.hidden')[0]

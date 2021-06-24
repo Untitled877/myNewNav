@@ -47,7 +47,11 @@ body {
     padding: 0 22px;
     white-space: nowrap;
 }
-
+.navMain {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .websiteList {
     display: flex;
     justify-content: space-between;
@@ -72,11 +76,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin:10px 0px;
+    margin:20px 0px;
 }
 @media (min-width: 500px) {
     .websiteList .website, .addButton {
-        margin: 20px;
+        margin-right: 60px;
+    }
+    .websiteList {
+        margin-left: 0;
+        margin-right: -60px;
     }
 }
 
@@ -138,11 +146,12 @@ body {
 .box {
     display: none;
     position: absolute;
-    top: 271px;
-    left: 37px;
+    top: 50vh;
+    left: 10vw;
+    margin: auto;
     background: white;
-    height: 125px;
-    width:300px;
+    height: 18vh;
+    width:80vw;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     flex-direction: column;
@@ -150,12 +159,11 @@ body {
 }
 @media (min-width: 500px) {
     .box {
-        top: 271px;
-        left: 398px;
-        height: 125px;
-        width:500px;
+        left: 35vw;
+        width: 30vw;
     }
 }
+
 .box .boxText {
     font-size: 16px;
     margin-top: 10px;
@@ -163,15 +171,15 @@ body {
 }
 
 .box #inputUrl {
-    width: 280px;
-    height: 30px;
+    width: 65vw;
+    height: 4vh;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     margin: 10px;
 }
 @media (min-width: 500px) {
     .box #inputUrl {
-        width: 400px;
+        width: 25vw;
     }
 }
 .box .submitButton {
@@ -184,4 +192,4 @@ body {
     white-space: nowrap;
 }
 
-/*# sourceMappingURL=index.2850f66a.css.map */
+/*# sourceMappingURL=index.a9270dbf.css.map */
