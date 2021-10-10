@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-optimize --public-url ./"
+  },
+  "name": "my-nav",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:Untitled877/myNewNav.git",
+  "author": "Untitled877 <1113425327@qq.com>",
+  "license": "MIT"
+}
